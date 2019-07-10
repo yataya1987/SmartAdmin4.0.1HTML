@@ -1,0 +1,26 @@
+https://github.com/robicch/jQueryGantt/  
+
+a.smart-underline {
+  color: #333;
+  text-decoration: none;
+  font-size: 20px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a.smart-underline::selection {
+  background: #b4d5fe;
+  text-shadow: .03em 0 #b4d5fe, -.03em 0 #b4d5fe, 0 .03em #b4d5fe, 0 -.03em #b4d5fe, .06em 0 #b4d5fe, -.06em 0 #b4d5fe, .09em 0 #b4d5fe, -.09em 0 #b4d5fe, .12em 0 #b4d5fe, -.12em 0 #b4d5fe, .15em 0 #b4d5fe, -.15em 0 #b4d5fe;
+}
+
+a.smart-underline::before,
+a.smart-underline::after {
+  text-shadow: none;
+}
+
+.smart-underline {
+  background: linear-gradient(#fff, #fff), linear-gradient(#fff, #fff), linear-gradient(#333, #333);
+  background-size: 0.05em 1px, .05em 1px, 1px 1px;
+  background-repeat: no-repeat, no-repeat, repeat-x;
+  background-position: 0% 90%, 100% 90%, 0% 90%;
+  text-shadow: .03em 0 #fff, -.03em 0 #fff, 0 .03em #fff, 0 -.03em #fff, .06em 0 #fff, -.06em 0 #fff, .09em 0 #fff, -.09em 0 #fff, .12em 0 #fff, -.12em 0 #fff, .15em 0 #fff, -.15em 0 #fff;
+}
